@@ -1,4 +1,4 @@
-class GrassCreator extends LivingCreature { /* eats grassEater, creates grass before moveing*/
+class GrassCreator extends LivingCreature { /* eats grassEater, creates grass before moving*/
     constructor(x, y, index) {
         super(x, y, index)
         this.multiply = 30
