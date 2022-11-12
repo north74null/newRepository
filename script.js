@@ -1,3 +1,12 @@
+var Grass = require("./grass.js");
+var GrassEater = require("./grassEater.js");
+var GrassCreator = require("./grassCreator.js");
+var GrassEater2 = require("./grassEater2.js");
+
+let newGrassForTest = new Grass(1,3,5);
+
+console.log(newGrassForTest);
+
 var matrix = []
 var grassArr = []
 var grassEaterArr = []
@@ -36,7 +45,7 @@ function setup() {
     }
 }
 
-function draw() {
+function draw () {
     for (let y = 0; y < matrix.length; y++) {
         for (let x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 1) {

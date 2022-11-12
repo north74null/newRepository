@@ -1,3 +1,5 @@
+var LivingCreature = require("./livingCreature.js");
+
 class Grass extends LivingCreature {
     mul() {
 
@@ -12,3 +14,5 @@ class Grass extends LivingCreature {
 
     }
 }
+
+module.exports = Grass;

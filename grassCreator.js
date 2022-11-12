@@ -1,3 +1,5 @@
+var LivingCreature = require("./livingCreature.js");
+
 class GrassCreator extends LivingCreature { /* eats grassEater, creates grass before moving*/
     constructor(x, y, index) {
         super(x, y, index)
@@ -63,3 +65,6 @@ class GrassCreator extends LivingCreature { /* eats grassEater, creates grass be
         }
     }
 }
+
+
+module.exports = GrassCreator;
